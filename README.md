@@ -1,5 +1,9 @@
 # CMPG323-Project4-25431285
 ## Training
+The training obtained for Project 4:
+- Introduction to software concepts
+- Build your first Power Automation
+- Design power bi reports
 ### UiPath
 #### Reference List
 https://www.youtube.com/watch?v=OyQAhrcBr9U
