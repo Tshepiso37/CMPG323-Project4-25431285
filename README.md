@@ -17,8 +17,19 @@ This project can be useful for a number of reasons:
 - Reusability: The UiPath process can be adapted for future UAT efforts, providing a reusable solution.
 
 - Data-driven Testing: By reading data from an Excel spreadsheet, the project allows for data-driven testing, making it adaptable to various test scenarios.
-##### How can this project be beneficial to the future
+##### How can this project be beneficial in the future
 As the field of Robotic Process Automation (RPA) continues to grow, the skills developed in this project can be highly beneficial for future career opportunities. Proficiency in UiPath and automation techniques can open doors to roles in software testing, process optimization, and system integration. Additionally, the ability to create automated test cases will contribute to faster and more reliable software releases in future projects.
+##### Who can use this project
+This project is designed for students and professionals interested in automating User Acceptance Testing (UAT) for web applications using UiPath. It can be particularly useful for:
+
+- Software testers and quality assurance professionals
+  
+- UiPath developers and RPA enthusiasts
+  
+- Students seeking to gain hands-on experience with RPA and automation
+  
+- Anyone involved in the UAT process of a web application
+  
 ##### Reference List
 https://www.youtube.com/watch?v=OyQAhrcBr9U
 https://docs.uipath.com/studio/standalone/2023.10/user-guide/tutorials
