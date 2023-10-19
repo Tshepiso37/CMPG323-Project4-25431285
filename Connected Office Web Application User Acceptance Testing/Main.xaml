@@ -105,7 +105,7 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="546,2666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="568,4213" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="Customers" />
       <Variable x:TypeArguments="sd:DataTable" Name="CustomerDetail" />
@@ -121,29 +121,29 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[CustomerDetail]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="484,88" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Customers" WorkbookPath="CMPG323 EcoPower Logistics Data.xlsx" />
-    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[OrdersTable]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="484,88" sap2010:WorkflowViewState.IdRef="ReadRange_5" SheetName="Orders" WorkbookPath="CMPG323 EcoPower Logistics Data.xlsx" />
-    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[ProductsTable]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="484,88" sap2010:WorkflowViewState.IdRef="ReadRange_6" SheetName="Products" WorkbookPath="CMPG323 EcoPower Logistics Data.xlsx" />
-    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[OrderDetailsTable]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="484,88" sap2010:WorkflowViewState.IdRef="ReadRange_7" SheetName="Order Details" WorkbookPath="CMPG323 EcoPower Logistics Data.xlsx" />
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Home Page - EcoPower_Logistics" sap:VirtualizedContainerService.HintSize="484,2043" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="8853fb2e-6f2f-4dde-822b-1299d05bdb1d" Version="V2">
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[CustomerDetail]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="506,88" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Customers" WorkbookPath="CMPG323 EcoPower Logistics Data.xlsx" />
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[OrdersTable]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="506,88" sap2010:WorkflowViewState.IdRef="ReadRange_5" SheetName="Orders" WorkbookPath="CMPG323 EcoPower Logistics Data.xlsx" />
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[ProductsTable]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="506,88" sap2010:WorkflowViewState.IdRef="ReadRange_6" SheetName="Products" WorkbookPath="CMPG323 EcoPower Logistics Data.xlsx" />
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[OrderDetailsTable]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="506,88" sap2010:WorkflowViewState.IdRef="ReadRange_7" SheetName="Order Details" WorkbookPath="CMPG323 EcoPower Logistics Data.xlsx" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Home Page - EcoPower_Logistics" sap:VirtualizedContainerService.HintSize="506,3590" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="8853fb2e-6f2f-4dde-822b-1299d05bdb1d" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1826" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="472,3373" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8853fb2e-6f2f-4dde-822b-1299d05bdb1d" Version="V3">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login'" sap:VirtualizedContainerService.HintSize="410,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8853fb2e-6f2f-4dde-822b-1299d05bdb1d" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://cmpg323-ecopowerlogistics.azurewebsites.net/" CvTextArea="1145, 150, 40, 19" CvTextArgument="Login" CvType="Text" DesignTimeRectangle="1138, 138, 55, 40" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Login'" FullSelectorArgument="&lt;webctrl aaname='Login' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Login' tag='A' type='' class='nav-link text-dark' check:innerText='Login' /&gt;" Guid="f16afea1-6129-42eb-869e-152ec647fdd2" InformativeScreenshot="4407627b89cec1cbd4b4f8d10264e170.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Home Page - EcoPower_Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Email'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="8853fb2e-6f2f-4dde-822b-1299d05bdb1d" Text="12345Tshepi@gmail" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Email'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="410,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="8853fb2e-6f2f-4dde-822b-1299d05bdb1d" Text="12345Tshepi@gmail" Version="V3">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://cmpg323-ecopowerlogistics.azurewebsites.net/Identity/Account/Login" CvElementArea="84, 372, 359, 60" CvType="InputBox" DesignTimeRectangle="86, 373, 356, 58" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT Input_Email'" FullSelectorArgument="&lt;webctrl id='Input_Email' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='Input_Email' tag='INPUT' type='email' class='form-control' aaname='Email' /&gt;" Guid="6b08ae31-0147-4348-9f01-7a58d8e77e43" InformativeScreenshot="e5341578910a110ac2847d48c6134fe9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in - EcoPower_Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -154,7 +154,7 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="8853fb2e-6f2f-4dde-822b-1299d05bdb1d" Text="Tshepiso@21" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="410,218" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="8853fb2e-6f2f-4dde-822b-1299d05bdb1d" Text="Tshepiso@21" Version="V3">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://cmpg323-ecopowerlogistics.azurewebsites.net/Identity/Account/Login" CvElementArea="84, 430, 359, 59" CvType="InputBox" DesignTimeRectangle="86, 431, 356, 58" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FriendlyName="'INPUT Input_Password'" FullSelectorArgument="&lt;webctrl id='Input_Password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='Input_Password' tag='INPUT' type='password' class='form-control' aaname='Password' /&gt;" Guid="587cb310-d32c-46bf-9d60-5fb6c491b69f" InformativeScreenshot="2a045d640b1e8dfd5430147b2814defa.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in - EcoPower_Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -165,7 +165,7 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log in'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8853fb2e-6f2f-4dde-822b-1299d05bdb1d" Version="V3">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log in'" sap:VirtualizedContainerService.HintSize="410,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8853fb2e-6f2f-4dde-822b-1299d05bdb1d" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://cmpg323-ecopowerlogistics.azurewebsites.net/Identity/Account/Login" CvElementArea="85, 519, 358, 51" CvTextArea="235, 536, 57, 23" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="86, 521, 356, 48" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Log in'" FullSelectorArgument="&lt;webctrl id='login-submit' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='login-submit' tag='BUTTON' type='submit' class='w-100 btn btn-lg btn-primary' aaname='Log in' check:innerText='Log in' /&gt;" Guid="adfa5c4a-530a-4862-86a8-7535d47f5f8c" InformativeScreenshot="3de4b45c06b7cb048cd9938cdfde928d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in - EcoPower_Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
               </uix:NClick.Target>
